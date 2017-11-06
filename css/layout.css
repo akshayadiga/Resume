@@ -187,10 +187,11 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #191919;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+        color: #636363;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -232,13 +233,231 @@ ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
+/* d. skills Section
+/* ------------------------------------------------------------------ */
+
+#skills {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#skills a, #skills a:visited  { color: #11ABB0; }
+#skills a:hover, #skills a:focus { color: #313131; }
+
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skills h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#skills h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#skills .header-col { padding-top: 9px; }
+#skills .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#skills .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#skills .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#skills .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* d. work-ex Section
+/* ------------------------------------------------------------------ */
+
+#work-ex {
+   background: #191919;
+   padding-top: 90px;
+   overflow: hidden;
+       color: #636363;
+}
+
+#work-ex a, #work-ex a:visited  { color: #11ABB0;  }
+#work-ex a:hover, #work-ex a:focus { color:  #313131; }
+
+#work-ex h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+     color: #e8e3e3;
+}
+#work-ex h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+      color: #e8e3e3;
+}
+#work-ex h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+        color: #e8e3e3;
+}
+#work-ex p {
+   line-height: 30px;
+   olor: #636363;
+}
+
+#work-ex .header-col { padding-top: 9px; }
+#work-ex .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#work-ex .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #7A7A7A;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#work-ex .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#work-ex .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* d. publication Section
+/* ------------------------------------------------------------------ */
+
+#publication {
+   background: #fff;
+   padding-top: 90px;
+   overflow: hidden;
+}
+
+#publication a, #publication a:visited  { color: #11ABB0; }
+#publication a:hover, #publication a:focus { color: #313131; }
+
+#publication h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#publication h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#publication h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#publication .header-col { padding-top: 9px; }
+#publication .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#publication .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#publication .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#publication .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. project Section
+/* ------------------------------------------------------------------ */
+
+#project {
+   background: #191919;
+   padding-top: 90px;
+   overflow: hidden;
+     color: #636363;
+}
+
+#project a, #project a:visited  { color: #11ABB0; }
+#project a:hover, #project a:focus { color: #313131; }
+
+#project h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+      color: v;
+}
+#project h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+          color: #e8e3e3;
+}
+#project h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+          color: #e8e3e3;
+}
+
+#project p {
+   line-height: 30px;
+   color: #636363;
+}
+
+#project .header-col { padding-top: 9px; }
+#project .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid blue;
+}
+#project .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #7A7A7A;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#project .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#project .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+
+
+/* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
    overflow: hidden;
 }
 
@@ -346,7 +565,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 30%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
@@ -368,13 +587,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+
 @-moz-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 30%;  }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
@@ -399,7 +619,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 30%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
